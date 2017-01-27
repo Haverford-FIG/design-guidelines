@@ -574,7 +574,8 @@ h6 {
   line-height: 1.2;
   margin: 0 0 0.75em;
   text-transform: uppercase;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin: 0; }
 
 h1 {
   font-size: 3.375em;
@@ -606,7 +607,7 @@ hr {
   margin: 1.5em 0; }
 
 #links {
-  max-width: 1200px;
+  max-width: 1020px;
   margin-left: auto;
   margin-right: auto; }
   #links::after {
@@ -615,7 +616,7 @@ hr {
     display: block; }
 
 #navbar-content {
-  max-width: 1200px;
+  max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
   display: block; }
@@ -628,6 +629,15 @@ hr {
   text-align: center;
   background-color: #7c1113;
   color: white; }
+  .banner h1 {
+    font-size: 5em; }
+  .banner p {
+    font-size: 1.5em;
+    text-transform: lowercase; }
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .linkrow {
   float: left;
@@ -641,7 +651,9 @@ hr {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  margin: 5px 5px 0;
+  padding: 0; }
   .link:last-child {
     margin-right: 0; }
   .link a {
@@ -656,8 +668,8 @@ nav {
     vertical-align: middle; }
   nav img {
     height: 40px;
-    line-height: 80px;
-    vertical-align: middle; }
+    margin: 15px 15px 0;
+    float: left; }
   nav li {
     display: inline;
     margin-left: 20px; }
