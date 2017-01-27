@@ -3,3 +3,21 @@ $font-stack: Overpass, sans-serif;
 body {
     font: 100% $font-stack;
 }
+
+h1 {
+    /* HAVERFORD COLLEGE: */
+    font-size: 81px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    /* section header: */
+    font-size: 54px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    /* SUBSECTION HEADER: */
+    font-size: 24px;
+    letter-spacing: 2px;
+}
