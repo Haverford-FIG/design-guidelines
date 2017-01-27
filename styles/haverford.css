@@ -10,18 +10,21 @@ h1 {
   /* HAVERFORD COLLEGE: */
   font-size: 81px;
   font-weight: 800;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  margin: 0; }
 
 h2 {
   /* section header: */
   font-size: 54px;
   font-weight: 300;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin: 20px 0 0; }
 
 h3 {
   /* SUBSECTION HEADER: */
   font-size: 24px;
   font-weight: 300;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin: 10px 0 0; }
 
 /*# sourceMappingURL=haverford.css.map */
