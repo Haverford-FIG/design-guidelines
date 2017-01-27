@@ -1,6 +1,11 @@
 body {
   font: 100% Overpass, sans-serif; }
 
+h1,
+h2,
+h3 {
+  text-transform: Uppercase; }
+
 h1 {
   /* HAVERFORD COLLEGE: */
   font-size: 81px;
