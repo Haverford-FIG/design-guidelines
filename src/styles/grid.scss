@@ -29,6 +29,8 @@ section {
 
 .link-row {
   @include span-columns(12);
+  margin: 0;
+  padding: 0;
 }
 
 .link {
