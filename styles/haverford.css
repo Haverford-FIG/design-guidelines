@@ -639,12 +639,12 @@ section {
   padding-top: 30px;
   padding-bottom: 30px; }
 
-.linkrow {
+.link-row {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%; }
-  .linkrow:last-child {
+  .link-row:last-child {
     margin-right: 0; }
 
 .link {
@@ -652,7 +652,7 @@ section {
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  margin: 5px 5px 0;
+  margin: 0;
   padding: 0; }
   .link:last-child {
     margin-right: 0; }
