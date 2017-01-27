@@ -11,6 +11,20 @@
   text-align: center;
   background-color: $primary-darkest;
   color: white;
+
+  h1 {
+    font-size: 5 * $base-font-size;
+  }
+
+  p {
+    font-size: 1.5 * $base-font-size;
+    text-transform: lowercase;
+  }
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .linkrow {
@@ -19,12 +33,13 @@
 
 .link {
   @include span-columns(4 of 12);
+  margin: 5px 5px 0;
+  padding: 0;
 
   a {
     font-size: 1.2 * $base-font-size;
     text-decoration: underline;
   }
-
 }
 
 nav {
@@ -38,8 +53,8 @@ nav {
 
   img {
     height: 40px;
-    line-height: 80px;
-    vertical-align: middle;
+    margin: 15px 15px 0;
+    float: left;
   }
 
   li {
