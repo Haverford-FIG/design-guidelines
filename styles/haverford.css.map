@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,IAAK;EACD,IAAI,EAAE,yBAAgB",
+"sources": ["../src/styles/haverford.scss"],
 "names": [],
 "file": "haverford.css"
 }
