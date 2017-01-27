@@ -678,4 +678,33 @@ nav {
     text-transform: uppercase;
     color: black; }
 
+.updates {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto; }
+  .updates::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.updates-row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-top: 10px; }
+  .updates-row:last-child {
+    margin-right: 0; }
+
+.updates-blog {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-top: 20px; }
+  .updates-blog:last-child {
+    margin-right: 0; }
+  .updates-blog h3 {
+    text-align: center; }
+
 /*# sourceMappingURL=haverford.css.map */

@@ -68,3 +68,21 @@ nav {
     color: black;
   }
 }
+
+.updates {
+  @include outer-container();
+}
+
+.updates-row {
+  @include span-columns(12);
+  margin-top: 10px;
+}
+
+.updates-blog {
+  @include span-columns(6 of 12);
+  margin-top: 20px;
+  
+  h3 {
+    text-align: center;
+  }
+}
