@@ -1,0 +1,55 @@
+#links {
+  @include outer-container();
+}
+
+#navbar-content {
+  @include outer-container();
+  display: block;
+}
+
+.banner {
+  text-align: center;
+  background-color: $primary-darkest;
+  color: white;
+}
+
+.linkrow {
+  @include span-columns(12);
+}
+
+.link {
+  @include span-columns(4 of 12);
+
+  a {
+    font-size: 1.2 * $base-font-size;
+    text-decoration: underline;
+  }
+
+}
+
+nav {
+  height: 80px;
+
+  .logo {
+    display: inline-block;
+    height: 80px;
+    vertical-align: middle;
+  }
+
+  img {
+    height: 40px;
+    line-height: 80px;
+    vertical-align: middle;
+  }
+
+  li {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  a {
+    line-height: 80px;
+    text-transform: uppercase;
+    color: black;
+  }
+}
